@@ -1,0 +1,18 @@
+kind: Module
+
+# The type of this module.
+type: exec
+local: true
+# The name of this module.
+name: service2
+description: common to all REST services
+
+services:
+  - name: service2
+    dependencies: [service1]
+    # (Required) Specify the command to deploy your service.
+    deployCommand: [./deploy.sh]
+    # (Optional but recommended) A command to check the deployment
+    # status. Exit code 0 = already deployed.
+    statusCommand: [./status.sh]
+

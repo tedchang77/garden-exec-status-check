@@ -1,0 +1,8 @@
+{
+    "dependencyVersions": {},
+    "versionString": "v-f339b0e053",
+    "files": [
+        "/home/tc/thx/garden-exec-status-check/service2/deploy.sh",
+        "/home/tc/thx/garden-exec-status-check/service2/status.sh"
+    ]
+}
